@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding ="16dp"
+    android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:text="CABEÇALHO"
+            android:padding = "16dp"
+            android:background="#8E24AA"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginStart="0dp"
+            android:background="#FB8C00"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:background="#00ACC1"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:background="#FDD835"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="#37474F"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:text="RODAPÉ"
+            android:background="#546E7A"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+        />
+
+
+</LinearLayout>

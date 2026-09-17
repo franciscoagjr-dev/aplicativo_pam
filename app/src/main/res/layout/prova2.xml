@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/tvNomeProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X-Salada da casa"
+            android:textColor="#1A2544"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tvDescricaoProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Pão brioche, hambúrguer 180g, queijo, alface e tomate."
+            android:textColor="#757575"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvPrecoProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="R$ 24,90"
+            android:textColor="#1B873F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E0E0E0" />
+
+
+        <TextView
+            android:id="@+id/tvTituloTamanho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escolha o tamanho:"
+            android:textColor="#212121"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <RadioGroup
+            android:id="@+id/rgTamanho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbPequeno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:text="Pequeno"
+                android:textColor="#424242" />
+
+            <RadioButton
+                android:id="@+id/rbMedio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:checked="true"
+                android:text="Médio"
+                android:textColor="#424242" />
+
+            <RadioButton
+                android:id="@+id/rbGrande"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grande"
+                android:textColor="#424242" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/tvTituloAdicionais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Adicionais:"
+            android:textColor="#212121"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <CheckBox
+            android:id="@+id/cbBacon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Bacon"
+            android:textColor="#424242" />
+
+        <CheckBox
+            android:id="@+id/cbQueijoExtra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Queijo extra"
+            android:textColor="#424242" />
+
+        <CheckBox
+            android:id="@+id/cbOvo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ovo"
+            android:textColor="#424242" />
+
+
+        <EditText
+            android:id="@+id/edtObservacoes"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/transparent"
+            android:gravity="top|start"
+            android:hint="Observações do pedido"
+            android:inputType="textMultiLine"
+            android:textColor="#212121"
+            android:textColorHint="#9E9E9E"
+            android:textSize="15sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BDBDBD" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <Button
+            android:id="@+id/btnAdicionarCarrinho"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#E65100"
+            android:text="Adicionar ao carrinho"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

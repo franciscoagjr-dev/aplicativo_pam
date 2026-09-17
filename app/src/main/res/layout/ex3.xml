@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding = "16dp"
+android:layout_marginTop="12dp"
+    >
+<TextView
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:layout_marginTop="12dp"
+    android:gravity="center"
+    android:text="match_parent"
+    android:padding = "16dp"
+    android:background="#1E88E5"
+    android:textColor="#ffffff"
+    android:textSize="24dp"
+    />
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:background="#E53935"
+        android:gravity="center"
+        android:text="match_content"
+        android:textColor="#ffffff"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:background="#43A047"
+        android:gravity="center"
+        android:text="wrap_content com texto maior"
+        android:textColor="#ffffff"
+        android:textSize="16sp" 
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="200dp"
+        android:textColor="#ffffff"
+        android:background="#FB8C00"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="120dp"
+        android:textColor="#ffffff"
+        android:background="#00ACC1
+"        android:textSize="16sp"
+        />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding = "16dp"
+    android:layout_marginTop="12dp"
+    >
+<TextView
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:layout_marginTop="12dp"
+    android:gravity="center"
+    android:text="A"
+    android:padding = "16dp"
+    android:background="#E53935"
+    android:textColor="#ffffff"
+    android:textSize="24dp"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="12dp"
+    android:gravity="center"
+    android:text="B"
+    android:background="#1E88E5"
+    android:textSize="24dp"
+    android:textColor="#ffffff"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="12dp"
+    android:gravity="center"
+    android:text="C"
+    android:textColor="#ffffff"
+    android:background="#43A047"
+    android:textSize="24dp"
+    />
+
+</LinearLayout>

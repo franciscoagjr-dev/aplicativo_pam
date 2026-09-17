@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marina Alves Ferreira"
+        android:textColor="#1F3864"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvimento de Sistemas"
+        android:textColor="#757575"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="RM:"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtRm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20250147"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Turma:"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtTurma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2º módulo - B"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Período:"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtPeriodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noite"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frequência nas aulas"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtFrequencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="87% - situação regular"
+        android:textColor="#43A047"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+
+    <Button
+        android:id="@+id/btnBoletim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver boletim"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#1F3864" />
+
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair da conta"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#9E9E9E"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
