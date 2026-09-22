@@ -17,13 +17,13 @@ class MainActivity : AppCompatActivity() {
         val botao = findViewById<Button>(R.id.btnProxima)
         val texto = findViewById<EditText>(R.id.editValor)
 
-
+        val teste = "Oi"
 
         botao.text = "oi testando o botão"
 
         botao.setOnClickListener {
             botao.text = texto.text
-            }
+
         }
     }
 }
