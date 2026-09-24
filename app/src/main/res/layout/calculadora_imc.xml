@@ -10,17 +10,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculadora de Média"
+        android:text="Calculadora de IMC"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
         android:layout_marginBottom="32dp"/>
 
     <EditText
-        android:id="@+id/editNota1"
+        android:id="@+id/editPeso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite a 1ªnota"
+        android:hint="Digite seu peso (ex: 70.5)"
         android:inputType="numberDecimal"
         android:textColor="#FFFFFF"
         android:textColorHint="#AAAAAA"
@@ -28,10 +28,10 @@
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/editNota2"
+        android:id="@+id/editAltura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite a 2ª nota"
+        android:hint="Digite sua altura (ex: 1.75)"
         android:inputType="numberDecimal"
         android:textColor="#FFFFFF"
         android:textColorHint="#AAAAAA"
@@ -39,21 +39,22 @@
         android:layout_marginBottom="24dp"/>
 
     <Button
-        android:id="@+id/btnCalcular"
+        android:id="@+id/btnCalcularImc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Media"
+        android:text="Calcular IMC"
         android:backgroundTint="#6200EE"
         android:textColor="#FFFFFF"
         android:layout_marginBottom="32dp"/>
 
     <TextView
-        android:id="@+id/txtResultado"
+        android:id="@+id/textResultadoImc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="resultados: "
+        android:text="IMC: --"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="#03DAC5"/>
+        android:textColor="#03DAC5"
+        android:gravity="center"/>
 
 </LinearLayout>
