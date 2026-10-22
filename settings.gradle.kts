@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "aplicativo pam"
 include(":app")
+include(":console")
